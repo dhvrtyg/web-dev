@@ -1,0 +1,63 @@
+body {
+    background-color: darkblue;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    color: white;
+}
+
+#game {
+    max-width: 500px;
+    background-color: lightgray;
+    color: #0a0a23; /* Dark blue/black for text on light background */
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#stats, #controls {
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #eee;
+    border-radius: 4px;
+}
+
+.stat {
+    padding-right: 10px;
+}
+
+#monsterStats {
+    display: none; /* Hidden by default, shown during fights */
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #fdd; /* Light red for monster stats */
+    border-radius: 4px;
+}
+
+#text {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+button {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #222;
+}   
